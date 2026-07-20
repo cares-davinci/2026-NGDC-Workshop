@@ -191,6 +191,26 @@ h1 {
   font-size: clamp(17px, 1.8vw, 20px);
 }
 
+.program-summary {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.program-summary li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: baseline;
+  margin-bottom: 0;
+}
+
+.program-summary span {
+  color: var(--muted);
+}
+
 .section-kicker {
   color: var(--blue);
 }
