@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>차세대데이터센터 2026 여름 프로그램</title>
+    <meta
+      name="description"
+      content="서울대학교 차세대데이터센터 연구센터의 2026년 7월 29일-30일 기술 세미나 및 멘토링 워크샵 프로그램"
+    />
+    <meta property="og:title" content="차세대데이터센터 2026 여름 프로그램" />
+    <meta
+      property="og:description"
+      content="Furiosa RNGD 고성능 커널 프로그래밍과 해외석학 초청 멘토링 및 성과 공유회"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <div class="hero-inner">
+        <h1>차세대데이터센터<br />2026 여름 프로그램</h1>
+        <p class="lead">
+          Furiosa RNGD 고성능 커널 프로그래밍과<br />
+          해외석학 초청 멘토링 및 성과 공유회
+        </p>
+        <div class="hero-meta" aria-label="행사 기본 정보">
+          <span><b>일시</b> | 2026년 7월 29일(수)-30일(목)</span>
+          <span><b>장소</b> | 서울대학교 302동 105호</span>
+          <span><b>주관</b> | 서울대학교 차세대데이터센터 연구센터</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section overview" aria-labelledby="overview-title">
+        <p class="section-kicker">Overview</p>
+        <div class="overview-blocks">
+          <section class="overview-item" aria-labelledby="date-place-title">
+            <h2 id="date-place-title">일시 및 장소</h2>
+            <ul>
+              <li>2026년 7월 29일(수)-30일(목)</li>
+              <li>서울대학교 302동 105호</li>
+            </ul>
+          </section>
+
+          <section class="overview-item" aria-labelledby="host-title">
+            <h2 id="host-title">주관</h2>
+            <ul>
+              <li>서울대학교 차세대데이터센터 연구센터</li>
+            </ul>
+          </section>
+
+          <section class="overview-item" aria-labelledby="committee-title">
+            <h2 id="committee-title">조직위원</h2>
+            <ul>
+              <li>김남승 교수(Univ. of Illinois, Urbana-Champaign / 서울대학교)</li>
+              <li>김지홍 교수(서울대학교)</li>
+              <li>이재욱 교수(서울대학교)</li>
+              <li>안정호 교수(서울대학교)</li>
+            </ul>
+          </section>
+
+          <section class="overview-item intro-text" aria-labelledby="intro-title">
+            <h2 id="intro-title">프로그램 소개</h2>
+            <p>
+              첫째 날은 Furiosa RNGD의 하드웨어 아키텍처와 로우레벨 커널 프로그래밍을
+              강의와 실습으로 다룹니다. 둘째 날은 Harvard University Gu-Yeon Wei 교수의
+              특별강연, 패널 토론, 차세대데이터센터 연구 성과 발표로 구성됩니다.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="section speakers" id="speakers" aria-labelledby="speaker-title">
+        <p class="section-kicker">Speakers</p>
+        <h2 id="speaker-title">초청연사</h2>
+        <div class="speaker-grid">
+          <article class="speaker-card">
+            <span class="speaker-label blue">기술 세미나 연사</span>
+            <h3>강지훈 박사</h3>
+            <p class="role">Chief Research Officer, FuriosaAI</p>
+            <a href="https://fearless.systems/jeehoon.kang/">Profile</a>
+          </article>
+          <article class="speaker-card">
+            <span class="speaker-label green">해외석학 초청연사</span>
+            <h3>Prof. Gu-Yeon Wei</h3>
+            <p class="role">Robert and Suzanne Case Professor of EE and CS, Harvard University</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="program" aria-labelledby="program-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Program</p>
+            <h2 id="program-title">프로그램 일정</h2>
+          </div>
+        </div>
+        <div class="day-tabs" role="tablist" aria-label="날짜 선택">
+          <button class="day-tab active" id="tab-day1" type="button" role="tab" aria-selected="true" aria-controls="day1">
+            1일차 · 기술 세미나
+          </button>
+          <button class="day-tab" id="tab-day2" type="button" role="tab" aria-selected="false" aria-controls="day2">
+            2일차 · 멘토링 워크샵
+          </button>
+        </div>
+
+        <article class="event-panel active day-blue" id="day1" role="tabpanel" aria-labelledby="tab-day1">
+          <div class="event-head">
+            <div>
+              <p class="event-date">2026. 7. 29. 수요일 · 10:00-17:00</p>
+              <h3>Furiosa RNGD 고성능 커널 프로그래밍</h3>
+              <dl class="facts">
+                <div><dt>장소</dt><dd>서울대학교 302동 105호</dd></div>
+                <div><dt>연사</dt><dd>강지훈 박사, FuriosaAI CRO</dd></div>
+              </dl>
+              <p>
+                차세대 AI 가속기 RNGD의 아키텍처와 vISA 기반 커널 프로그래밍 원리를
+                이해하고, 전용 개발 환경에서 Tensor Contraction 및 Transformer 커널을
+                구현·최적화합니다.
+              </p>
+            </div>
+          </div>
+
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>시간</th>
+                <th>프로그램</th>
+                <th>발표자</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="part-row">
+                <td colspan="3">1부 오전 / 강의</td>
+              </tr>
+              <tr>
+                <td><time>10:00-12:00</time></td>
+                <td>
+                  <ul>
+                    <li><strong>강의 1.</strong> RNGD: Tensor Contraction Processor for AI Inference</li>
+                    <li><strong>강의 2.</strong> vISA: Low-Level Programming Interface for RNGD</li>
+                  </ul>
+                </td>
+                <td>강지훈 박사</td>
+              </tr>
+              <tr class="break-row">
+                <td><time>12:00-13:30</time></td>
+                <td colspan="2">Break</td>
+              </tr>
+              <tr class="part-row">
+                <td colspan="3">2부 오후 / 실습</td>
+              </tr>
+              <tr>
+                <td><time>13:30-17:00</time></td>
+                <td>
+                  <ul>
+                    <li><strong>실습 1.</strong> furiosa-opt 개발 환경</li>
+                    <li><strong>실습 2.</strong> Tensor Contraction Kernels 구현 및 최적화</li>
+                    <li><strong>실습 3.</strong> Transformer Kernels 구현 및 최적화</li>
+                  </ul>
+                </td>
+                <td>강지훈 박사</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="event-panel day-green" id="day2" role="tabpanel" aria-labelledby="tab-day2" hidden>
+          <div class="event-head">
+            <div>
+              <p class="event-date">2026. 7. 30. 목요일 · 13:00-16:20</p>
+              <h3>해외석학 초청 멘토링 및 성과 공유회</h3>
+              <dl class="facts">
+                <div><dt>장소</dt><dd>서울대학교 302동 105호</dd></div>
+                <div><dt>초청 석학</dt><dd>Prof. Gu-Yeon Wei, Harvard University</dd></div>
+              </dl>
+              <p>
+                AI와 반도체의 메모리 중심 패러다임을 논의하고, 진로 멘토링과
+                차세대데이터센터 연구 성과 발표를 함께 진행합니다.
+              </p>
+            </div>
+          </div>
+
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>시간</th>
+                <th>프로그램</th>
+                <th>발표자</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="part-row">
+                <td colspan="3">1부 해외석학 멘토링 워크샵</td>
+              </tr>
+              <tr>
+                <td><time>13:00-13:10</time></td>
+                <td>Welcome & Opening Remarks</td>
+                <td>Prof. Nam Sung Kim<span class="affiliation">UIUC, Seoul National Univ.</span></td>
+              </tr>
+              <tr>
+                <td><time>13:10-14:10</time></td>
+                <td>
+                  Special Lecture AI x Semiconductors :<br />
+                  A memory-driven paradigm shift in computing
+                </td>
+                <td>Prof. Gu-Yeon Wei<span class="affiliation">Harvard University</span></td>
+              </tr>
+              <tr>
+                <td><time>14:10-15:10</time></td>
+                <td>
+                  Panel Discussion : Chasing the AI Supercycle or Investing in the Future?
+                  Weighing Advanced Degrees Against Immediate Tech Windfalls
+                </td>
+                <td>
+                  Prof. Gu-Yeon Wei &amp;<br />
+                  Prof. Nam Sung Kim
+                </td>
+              </tr>
+              <tr class="break-row">
+                <td><time>15:10-15:20</time></td>
+                <td colspan="2">Break</td>
+              </tr>
+              <tr class="part-row">
+                <td colspan="3">2부 차세대데이터센터 성과 공유회</td>
+              </tr>
+              <tr>
+                <td><time>15:20-15:40</time></td>
+                <td>
+                  Efficient Memory Management through Metadata Acceleration in CXL-Based Memory Systems
+                </td>
+                <td>Dusol Lee<span class="affiliation">Seoul National Univ.</span></td>
+              </tr>
+              <tr>
+                <td><time>15:40-16:00</time></td>
+                <td>
+                  Row Granularity Access Memory System for Large Language Models
+                </td>
+                <td>Hwayong Nam<span class="affiliation">Seoul National Univ.</span></td>
+              </tr>
+              <tr>
+                <td><time>16:00-16:20</time></td>
+                <td>
+                  GS-Scale: Unlocking Large-Scale 3D Gaussian Splatting Training via Host Offloading
+                </td>
+                <td>Donghyun Lee<span class="affiliation">Seoul National Univ.</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <section class="section slides-section" id="slides" aria-labelledby="slides-title">
+        <div class="slides-head">
+          <p class="section-kicker">Slides</p>
+          <h2 id="slides-title">발표자료</h2>
+          <p>
+            발표자료 PDF가 준비되면 GitHub 저장소에 `slides/` 폴더를 만들고 파일을
+            업로드한 뒤, 아래 각 항목의 `slides` 링크 주소만 해당 PDF 경로로 바꾸면 됩니다.
+          </p>
+        </div>
+
+        <ul class="slides-list">
+          <li>
+            <div>
+              <strong>RNGD / vISA / Kernel Programming</strong>
+              <span>강지훈 박사</span>
+            </div>
+            <a class="slides-button is-disabled" href="#" aria-disabled="true">slides</a>
+          </li>
+          <li>
+            <div>
+              <strong>AI x Semiconductors: A Memory-Driven Paradigm Shift in Computing</strong>
+              <span>Prof. Gu-Yeon Wei</span>
+            </div>
+            <a class="slides-button is-disabled" href="#" aria-disabled="true">slides</a>
+          </li>
+          <li>
+            <div>
+              <strong>Efficient Memory Management through Metadata Acceleration in CXL-Based Memory Systems</strong>
+              <span>Dusol Lee</span>
+            </div>
+            <a class="slides-button is-disabled" href="#" aria-disabled="true">slides</a>
+          </li>
+          <li>
+            <div>
+              <strong>Row Granularity Access Memory System for Large Language Models</strong>
+              <span>Hwayong Nam</span>
+            </div>
+            <a class="slides-button is-disabled" href="#" aria-disabled="true">slides</a>
+          </li>
+          <li>
+            <div>
+              <strong>GS-Scale: Unlocking Large-Scale 3D Gaussian Splatting Training via Host Offloading</strong>
+              <span>Donghyun Lee</span>
+            </div>
+            <a class="slides-button is-disabled" href="#" aria-disabled="true">slides</a>
+          </li>
+        </ul>
+
+        <div class="upload-guide">
+          <h3>GitHub 업로드 예시</h3>
+          <ol>
+            <li>저장소 루트에 `slides` 폴더를 만듭니다.</li>
+            <li>PDF 파일을 예를 들어 `slides/day1-rngd.pdf`처럼 업로드합니다.</li>
+            <li>위 목록의 링크를 `href="./slides/day1-rngd.pdf"`처럼 바꿉니다.</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
